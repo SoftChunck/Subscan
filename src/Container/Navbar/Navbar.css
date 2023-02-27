@@ -1,0 +1,35 @@
+.Navbar{
+    background-image: url("../../../public/Assets/Images/navbarBG.png");
+    color: white;
+}
+.Navbar img{
+    width: 119px;
+    height: 25px;
+}
+.Navbar .btnsmall{
+    width: 20px;
+    height: 20px;
+}
+
+.offcanvasHeaderColor{
+    background: rgb(57, 53, 68);
+}
+.offcanvasBodyColor{
+   background:rgb(47, 43, 60);
+}
+.searchtextfield{
+    outline: 0px;
+    border: 0px;
+    width: 80%;
+}
+.searchBox{
+    border-color: gainsboro;
+    border: 2px;
+}
+.dropdownAll{    
+    border-right-width: 1px;
+    border-color: gainsboro;
+}
+.Navbar .dropdownDiv{
+    top: 100%;
+}

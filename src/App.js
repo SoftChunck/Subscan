@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import Navbar from './Container/Navbar/Navbar';
+import Focus from './Container/Landing/Focus/Focus';
+import Landing from './Container/Landing/Landing';
+import ApexCharts from 'apexcharts'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Landing />
     </div>
   );
 }

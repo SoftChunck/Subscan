@@ -1,0 +1,11 @@
+.Landing{
+    background-color: #fbfbfd;
+}
+.blocks > div{
+    min-width: 250px;
+}
+.btnContainer{
+    border: 1px solid;
+    width: fit-content;
+    padding: 1px;
+}
